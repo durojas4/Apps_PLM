@@ -1,0 +1,433 @@
+body
+{
+    margin: 0;
+}
+footer
+{
+    height: 50px;
+    vertical-align: bottom;
+}
+footer nav div
+{
+    display: inline;
+}
+
+h1
+{
+    color: #2662b0;
+    font-family: Myriad;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+h2
+{
+    font-family: Myriad;
+    font-size: 16px;
+    color: #2662b0;
+}
+
+h3
+{
+    font-family: Myriad;
+    font-size: 14px;
+    color: #2662b0;
+    text-align: center;
+}
+
+header
+{
+    height: 50px;
+}
+
+header nav div
+{
+    vertical-align: middle;
+    display: inline;
+}
+
+hr
+{
+    clear: both;
+}
+
+html
+{
+    height: 1024px;
+    width: 768px;
+}
+
+p
+{
+    color: #000000;
+    font-family: Myriad;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+table
+{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px;
+}
+table tbody tr th
+{
+    border: 1px solid;
+    border-color: #013c94;
+    background-color: #2662b0;
+    color: white;
+    padding: 10px;
+}
+
+table tbody tr td
+{
+    border: 1px solid;
+    border-color: #013c94;
+    background-color: #c9e6f5;
+    color: #000000;
+    padding: 0px;
+    vertical-align: top;
+}
+
+table tfoot td
+{
+    colspan: 3;
+    border: none;
+    background-color: none;
+}
+
+
+
+table tbody tr td
+{
+    padding: 10px;
+}
+
+/****** ID'S ******/
+
+#carrusel_pfizer
+{
+    height: 110px;
+    width: 768px;
+}
+
+#div_body
+{
+    background-image: url('../img/fondov.jpg');
+    height: 1024px;
+    width: 768px;
+}
+
+
+
+#gene_hemo
+{
+    background-image: url('../img/globulos.jpg');
+    border: 1px solid #2662b0;
+    border-radius: 8px 8px 0 0;
+    height: 768px;
+    /*margin: 20px 20px 0 20px;*/
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 730px;
+}
+
+#div_frame
+{
+    /*border: 1px solid #2662b0;*/
+    /*border-radius: 8px 8px 0 0;*/
+    height: 768px;
+    margin: 10px 10px 0 17px;
+    /*overflow: hidden;
+    overflow-y: scroll;*/
+    width: 768px;
+}
+
+#frame_gen
+{
+    height: 768px;
+    width: 760px;
+}
+
+
+
+/****** CLASS ******/
+.atras
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.home
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.btnconfig
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+.title
+{
+    vertical-align: -20px;
+    font-family: Myriad;
+    font-style: italic;
+    font-size: 25px;
+    color: #2662b0;
+    float: left;
+    margin-left: 195px;
+    margin-top: 15px;
+    width: 100px;
+}
+.plm_blanco
+{
+    vertical-align: -20px;
+    margin-left: 10px;
+}
+.logoPfizer
+{
+    display: inline;
+    float: right;
+    margin-right: 25px;
+    vertical-align: -60px;
+}
+.pietabla
+{
+    font-size: 12px;
+}
+
+.pieapp
+{
+    vertical-align: -15px;
+    font-family: Myriad;
+    font-style: italic;
+    font-size: 25px;
+    color: #2662b0;
+    margin-left: 200px;
+}
+
+.footer
+{
+    vertical-align: bottom;
+    height: 50px;
+}
+
+.menu_generalidales
+{
+    display: inline;
+    height: 129px;
+    width: 768px;
+   
+}
+
+.nav_buton
+{
+    width: 768px;
+}
+
+.btn_genHemo
+{
+    background-image: url('../img/btn_geneHemo.jpg');
+    float: left;
+    height: 43px;
+    width: 380px;
+}
+.btn_consEspec
+{
+    background-image: url('../img/btn_consEspec.jpg');
+    float: right;
+    height: 43px;
+    width: 380px;
+}
+.btn_clasifHemo
+{
+    background-image: url('../img/btn_clasifHemo.jpg');
+    float: left;
+    height: 43px;
+    width: 380px;
+}
+.btn_pruebasLab
+{
+    background-image: url('../img/btn_pruebasLab.jpg');
+    float: right;
+    height: 43px;
+    width: 380px;
+}
+.btn_sitiosSangrado
+{
+    background-image: url('../img/btn_sitiosSangrado.jpg');
+    float: left;
+    height: 43px;
+    width: 380px;
+}
+
+.btn_testEval
+{
+    background-image: url('../img/btn_testEval.jpg');
+    float: right;
+    height: 43px;
+    width: 380px;
+}
+
+/********************* RESPONSIVE ***************************/
+@media all and (min-width: 769px) {
+	#div_body
+	{
+		background-image: url('../img/fondoh.png');
+		height: 768px;
+        width: 1024px;
+	}
+
+    #gene_hemo
+    {
+        background-image: url('../img/globulos.jpg');
+        border: 1px solid #2662b0;
+        border-radius: 8px 8px 0 0;
+        height: 550px;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: 986px;
+    }
+
+    #div_frame
+    {
+        height: 550px;
+        margin: 10px 10px 0 17px;
+        width: 1024px;
+    }
+
+    #frame_gen
+    {
+        height: 550px;
+        width: 1016px;
+    }
+    
+    .nav_buton
+    {
+        width: 1024px;
+    }
+    
+    .btn_genHemo
+    {
+        /*background-image: url('../img/btn_geneHemo_h.jpg');*/
+        background-image: none;
+        height: 0px;
+        width: 0px;
+    }
+    .btn_genHemo_h
+    {
+        background-image: url('../img/btn_geneHemo_h.jpg');
+        float: left;
+        height: 45px;
+        width: 342px;
+    }
+    .btn_consEspec
+    {
+        /*background-image: url('../img/btn_consEspec_h.jpg');*/
+        background-image: none;
+        height: 0px;
+        width: 0px;
+    }
+        .btn_consEspec_h
+    {
+        background-image: url('../img/btn_consEspec_h.jpg');
+        float: left;
+        height: 45px;
+        /*margin-left: 2px;*/
+        width: 340px;
+    }
+    .btn_clasifHemo
+    {
+        /*background-image: url('../img/btn_clasifHemo_h.jpg');*/
+        background-image: none;
+        height: 0px;
+        width: 0px;
+    }
+    .btn_clasifHemo_h
+    {
+        background-image: url('../img/btn_clasifHemo_h.jpg');
+        float: left;
+        height: 45px;
+        width: 342px;
+    }
+    .btn_pruebasLab
+    {
+        /*background-image: url('../img/btn_pruebasLab_h.jpg');*/
+        background-image: none;
+        height: 0px;
+        width: 0px;
+    }
+    .btn_pruebasLab_h
+    {
+        background-image: url('../img/btn_pruebasLab_h.jpg');
+        float: right;
+        height: 45px;
+        width: 342px;
+    }
+    .btn_sitiosSangrado
+    {
+        /*background-image: url('../img/btn_sitiosSangrado_h.jpg');*/
+        background-image: none;
+        height:0px;
+        width: 0px;
+    }
+    .btn_sitiosSangrado_h
+    {
+        background-image: url('../img/btn_sitiosSangrado_h.jpg');
+        float: left;
+        height: 45px;
+        /*margin-left: 2px;*/
+        width: 340px;
+    }
+    .btn_testEval
+    {
+        /*background-image: url('../img/btn_testEval_h.jpg');*/
+        background-image: none;
+        height: 0px;
+        width: 0px;
+    }
+    .btn_testEval_h
+    {
+        background-image: url('../img/btn_testEval_h.jpg');
+        float: left;
+        height: 45px;
+        width: 342px;
+    }
+   
+    .footer
+    {
+        vertical-align: bottom;
+        height: 50px;
+    }
+    
+    .pieapp
+    {
+        vertical-align: -15px;
+        font-family: Myriad;
+        font-style: italic;
+        font-size: 25px;
+        color: #2662b0;
+        margin-left: 325px;
+    }
+    
+    .title
+    {
+        vertical-align: -20px;
+        font-family: Myriad;
+        font-style: italic;
+        font-size: 25px;
+        color: #2662b0;
+        float: left;
+        margin-left: 325px;
+        margin-top: 15px;
+        width: 100px;
+    }
+}
